@@ -7,7 +7,9 @@ const Label_Color = 'rgba(18, 18, 18, 1)';
 const Gray_1 = 'rgba(72, 72, 72, 1)';
 const Gray_3 = 'rgba(169, 169, 169, 1)';
 const Gray_4 = 'rgba(217, 217, 217, 1)';
+const Gray_5 = '#EDEDED';
 
+const SuccessMain = '#3DCEAB';
 const Primary = {
   PrimaryMain: 'rgba(18, 149, 117, 1)',
   Primary_80: 'rgba(169, 169, 169, 1)',
@@ -23,8 +25,10 @@ export const Colors = {
   White,
   Black,
   Label_Color,
+  SuccessMain,
   Gray_1,
   Gray_3,
   Gray_4,
+  Gray_5,
   ...Primary,
 };

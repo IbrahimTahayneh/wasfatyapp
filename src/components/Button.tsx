@@ -49,11 +49,8 @@ interface PrimaryButtonProps extends ButtonProps {
   testID?: string;
 }
 
-const _PrimaryTouchableOpacity = styled(_BaseButtonWrapper)<{
-  isMobile?: boolean;
-}>`
+const _PrimaryTouchableOpacity = styled(_BaseButtonWrapper)`
   flex-direction: row;
-  /* height: ${props => (props.isMobile ? 50 : 42)}px; */
   height: 60px;
   background-color: ${props =>
     props.disabled ? Colors.Gray_3 : Colors.PrimaryMain};
